@@ -1,0 +1,115 @@
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f4f8;
+}
+
+li, a, button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #24252A;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    padding: 30px 10%; 
+}
+
+header ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+header h2 {
+    margin-right: auto;
+} 
+
+header button {
+    margin-left: 15px;
+    border: none;
+    border-radius: 20px;
+    padding: 4px;
+    background-color: black;
+}
+
+header button:hover {
+    background-color: #616369;
+}
+
+.contact {
+    color:#ffff;
+}
+
+.nav_links li a:hover {
+    color:rgb(132, 129, 123);
+}
+
+.redflower {
+    position: absolute;
+    right: 10%;
+    top:28%;
+    border-radius: 20px;
+    width: 300px;
+    height: 250px;
+    
+}
+
+.Heading {
+    font-size:xx-large;
+    font:bold;
+    margin-left:10%;
+    margin-top:0%;
+}
+
+
+
+.registration {
+    position: relative;
+    margin-right:120vh;
+    margin-left:12vh;
+    margin-top: 2vh;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+
+}
+
+.container form .details {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.details .input-field {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 4px;
+    padding: 8px;
+    width: 150px;
+    height: max-content;
+    border: 2px solid black;
+    border-radius:4px;
+}
+
+input[type='submit'] {
+    display: block;
+    margin-left: 125px;
+    margin-top: 20px;
+    border: 2px solid rgb(84, 81, 74);
+    width: 70px;
+    height: 25px;
+    font-size: large;
+    border-radius: 4.5px;
+
+    
+
+
+}
+

@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>Submit</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/submit.css') }}">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
+    </head>
+    <style>
+        @import url('https//fonts.googleapis.com/css2?family=Montserratital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+    <body>
+        <div class="container">
+            <header>
+                <h2 class="title">Flowers Hub</h2>
+                <nav>
+                    <ul class="nav_links">
+                        <li><a href="#"> Home </a></li>
+                        <li><a href="#"> Black Flower </a></li>
+                        <li><a href="#"> White Flower </a></li>
+                        <li><a href="#"> Rose Flower </a></li>
+                    </ul>
+                </nav>
+                <a class="contact" href="#"><button class="contact">Contact</button></a>
+            </header>
+            <div class="BodyContent">
+                <div class="Image">
+                    <img class='redflower' src="/static/css/Images/redflower.jpeg" alt="redflower">
+                </div>
+                <form action='/submit' method="post">  
+                    <div>
+                        <span class="Heading">Buy now</span>
+                    </div>    
+                    <div class="registration">
+                        <div  class="details">
+                            <label for="name">First Name</label>
+                            <input class="input-field" type="text" name="name" placeholder="first name">
+                        </div>
+                        <div  class="details">
+                            <label for="lastname">Last Name</label>
+                            <input class="input-field" type="text" name="lastname" placeholder="last name">
+                        </div>
+                        <div  class="details">
+                            <label for="email">Email Adress</label>
+                            <input class="input-field" type="text" name="email" placeholder="email adress">
+                        </div>
+                        <div  class="details">
+                            <label for="message">Message</label>
+                            <input class="input-field" type="text" name="message" placeholder="your message">
+                        </div>
+                        <div class="button">
+                            <input type='submit' value="Submit">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+    </body>
+
+    
+
+
+</html>
